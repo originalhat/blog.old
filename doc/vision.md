@@ -12,3 +12,11 @@ Coffee is a rich and vibrant experience. It's something you can enjoy from your 
 4. Use this app to market the goods in a fun, exciting and economical fashion
 5. Provide a fast, tidy and fun delivery service
 6. Reduce the inconvenience of buying AWESOME coffee for urban consumers
+
+## Product Customers
+
+## Product Need
+
+## Product Competition
+
+## Product Differentiation
