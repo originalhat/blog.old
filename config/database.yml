@@ -24,8 +24,10 @@ test:
 
 production:
   adapter: postgresql
-  database: grounds_production
+  encoding: unicode
   pool: 5
-  timeout: 5000
-  username: gguser
-  password: grounds
+  database: ddt82egtuvvqi5
+  username: essypxhlhubjix
+  password: M3DyaAUp-tsdJwUs1cW77sO8Kb
+  host: ec2-107-20-245-109.compute-1.amazonaws.com
+  port: 5432
