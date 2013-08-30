@@ -1,4 +1,4 @@
-# Grounds & Grounds
+# Scratch Notes
 
 ## Overview
 
@@ -6,7 +6,7 @@ Why waste the digestible and worthwhile biomass that typically ends up in landfi
 
 Rather than letting these high organically rich products go to waste, why not collect them from city dwellers in efficient compact containers to be composted into high quality, premium grade grounds…of dirt! This compostable biomass can be shuttled via hipsters on scooters and delivered to a central composting center where the dirt is then organized and managed into an efficient composting center, which yields premium dirt.
 
-This dirt can then be sold back to the very people, or alternative vendors who provided the used organic matter as premium grade dirt. 
+This dirt can then be sold back to the very people, or alternative vendors who provided the used organic matter as premium grade dirt.
 
 The second part of the equation is a system for delivering high grade coffee beans to the very people who originally provided the compostable materials. As the compostable material is picked up, the coffee could be delivered.
 
@@ -16,7 +16,7 @@ The medium for engaging customers could be through a mobile native mobile applic
 
 ## Fiscal Feasibility
 
-There are still a number of unknowns, particularly with regard to he **best** path to maximized profitability. 
+There are still a number of unknowns, particularly with regard to he **best** path to maximized profitability.
 
 **TBA:**
 
@@ -71,14 +71,14 @@ This boutique / gourmet coffee business could be segwayed into other products th
 
 I've revised my ideas after the day following initial inception. Composting is a difficult sell, although I feel like there's still something worthwhile to be extracted from the concepts of "Grounds & Grounds." It may make more sense to put an emphasis on the coffee delivery / consumption business and a de-emphasized (yet still relevant) emphasis on the acceptance of compostable matter.
 
-The idea of deliverable coffee has a strong selling point, particularly with regard to the "urban consumer" and the chic nature of the product. Gathering a consumers used coffee grounds has a worthwhile ascetic to it, gives the consumer a sense of purpose, introduces us to them in a marketplace, and allows us to distribute a organically rich product to local composters. 
+The idea of deliverable coffee has a strong selling point, particularly with regard to the "urban consumer" and the chic nature of the product. Gathering a consumers used coffee grounds has a worthwhile ascetic to it, gives the consumer a sense of purpose, introduces us to them in a marketplace, and allows us to distribute a organically rich product to local composters.
 
 Cavet: do we lose something special when we disassociate the concept of "Grounds & Grounds" too much? There's business potential there.
 
 The "process":
 
-1. Local Gourmet Coffee 
-2. Order via "The App" 
-3. Delivered via Scootsters 
+1. Local Gourmet Coffee
+2. Order via "The App"
+3. Delivered via Scootsters
 4. Get Old Grounds
 5. Recycle Grounds Back into the Ground.

@@ -15,8 +15,16 @@ Coffee is a rich and vibrant experience. It's something you can enjoy from your 
 
 ## Product Customers
 
+Placeholder: Who are we targeting with this product?
+
 ## Product Need
+
+Placeholder: Why the market needs (has a demand for) this product.
 
 ## Product Competition
 
+Placeholder: What are the competitors out there, how do they differ, what are lost opportunities on their part?
+
 ## Product Differentiation
+
+Placeholder: How are we going make the pitch, "buying coffee from us is a better idea than buying it from Kroger, Starbucks, or another distributor?"
