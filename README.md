@@ -32,3 +32,13 @@ To run the tests, execute the following command.
 ```
 $ guard
 ```
+
+## Deployment
+
+To deploy you must have **heroku** configured locally and configued to point to the correct url / remote. You must also have access to this remote repository.
+
+```
+$ git push heroku master
+```
+
+Once deployed, the application should be viewable @ <http://grounds-and-grounds.herokuapp.com>.
