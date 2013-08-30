@@ -17,9 +17,13 @@ This may be installed via brew, and users can be configured locally to work with
 ```
 $ bundle
 ```
-----
+### Starting the Server
 
-That's it, for now!
+```
+$ unicorn
+```
+
+This defaults to `localhost:8080`.
 
 ## Testing
 
