@@ -39,7 +39,7 @@ $ guard
 
 ## Deployment
 
-To deploy you must have **heroku** configured locally and configued to point to the correct url / remote. You must also have access to this remote repository.
+To deploy you must have **heroku** configured locally using **git** and be configued to point to the correct remote / repository. You must also have access to this remote repository (talk to **@devinbrown** for this).
 
 ```
 $ git push heroku master
