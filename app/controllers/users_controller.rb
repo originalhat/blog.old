@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
-  before_filter :authenticate, :except => [:new]
+  before_filter :authenticate, :except => [:new, :login, :create]
 
   def authenticate
     redirect_to root_path if current_user.nil?

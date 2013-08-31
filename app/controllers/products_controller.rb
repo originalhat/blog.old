@@ -1,6 +1,12 @@
 class ProductsController < ApplicationController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
 
+  before_filter :authenticate
+
+  def authenticate
+    redirect_to root_path if current_user.nil?
+  end
+
   # GET /products
   # GET /products.json
   def index
