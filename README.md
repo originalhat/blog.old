@@ -27,7 +27,11 @@ This defaults to `localhost:8080`.
 
 ## Testing
 
-To run the tests, execute the following command.
+Test may be run independently via **rspec**, or automatically with **guard**.
+
+```
+$ rspec spec
+```
 
 ```
 $ guard
