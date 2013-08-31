@@ -1,8 +1,16 @@
 Grounds::Application.routes.draw do
 
-  root "products#index"
+  root "sessions#new"
 
+  # get "sessions/login" => "sessions#login"
+
+  get "h3x^c4t" => "users#new"
+
+  get "logout" => "sessions#destroy"
+
+  resources :users
   resources :products
+  resources :sessions
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
