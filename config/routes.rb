@@ -1,5 +1,5 @@
 Grounds::Application.routes.draw do
-  # Homepage as root
+
   root "products#index"
 
   resources :products
