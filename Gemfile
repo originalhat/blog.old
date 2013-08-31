@@ -50,6 +50,7 @@ gem 'rails_12factor'
 # gem 'debugger', group: [:development, :test]
 
 group :development, :test do
+  gem 'rspec-rails'
   gem 'guard'
   gem 'guard-rspec'
 end
