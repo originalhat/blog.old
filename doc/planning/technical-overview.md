@@ -17,6 +17,7 @@ Web based application with two primary goals:
 
 ### MarketPlace
 
+- create account and login 
 - view products(s)
 - buy product(s)
 
