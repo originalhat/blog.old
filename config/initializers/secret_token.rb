@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Grounds::Application.config.secret_key_base = '38421acbf2a791c478568fbbae2985f92506ad42ca55db8c03a879a3bcd611d9d951a4a2676d482bc50ae19b9fb04e828d819a379a1be24681ab964be0c37218'
+Grounds::Application.config.secret_key_base = 'f7d7a355d76e3b4bd36d5fbb569707b6fdb0d6838b144719ace20eb0a4883d9dc6db1bb3225ad70f5853c7a892d7796dafde5c50ed8bad67d974fc266c3ad04c'

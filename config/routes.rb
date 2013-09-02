@@ -1,16 +1,4 @@
 Grounds::Application.routes.draw do
-
-  root "sessions#new"
-
-  get "h3x^c4t" => "users#new"
-
-  get "logout" => "sessions#destroy"
-
-  resources :users, except: :new
-  resources :products
-  resources :sessions
-  resources :tests
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -51,7 +39,7 @@ Grounds::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-
+  
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
