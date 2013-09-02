@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe UsersController do
-  describe "routing" do
+  describe "user routing" do
 
     it "routes to #index" do
       get("/users").should route_to("users#index")
@@ -19,10 +19,6 @@ describe UsersController do
       get("/users/1/edit").should route_to("users#edit", :id => "1")
     end
 
-    it "routes to #create" do
-      post("/users").should route_to("users#create")
-    end
-
     it "routes to #update" do
       put("/users/1").should route_to("users#update", :id => "1")
     end
@@ -30,6 +26,5 @@ describe UsersController do
     it "routes to #destroy" do
       delete("/users/1").should route_to("users#destroy", :id => "1")
     end
-
   end
 end

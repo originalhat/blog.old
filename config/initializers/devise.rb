@@ -86,7 +86,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = "716ecf949f63c6c6016be300fe82a313b289eaeb3a370e025d7edcab2118ed0166a12ca8ad484c9f9fa8242bc3f6dca95448411800473ca7d6f69139540e99af"
+  # config.pepper = "53b63c95a9683f95db31583b5c766e5d6755ec3d4b41b40b58ac16b65e2dcd6c4451882be08cbdd3516c358abcb4ae0c871a11f7060c04d268ea6d0cc04d5c6d"
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -159,15 +159,15 @@ Devise.setup do |config|
 
   # Number of authentication tries before locking an account if lock_strategy
   # is failed attempts.
-  # config.maximum_attempts = 20
+  config.maximum_attempts = 5
 
   # Time interval to unlock the account if :time is enabled as unlock_strategy.
-  # config.unlock_in = 1.hour
+  config.unlock_in = 1.hour
 
   # ==> Configuration for :recoverable
   #
   # Defines which key will be used when recovering the password for an account
-  # config.reset_password_keys = [ :email ]
+  config.reset_password_keys = [ :email ]
 
   # Time interval you can reset your password with a reset password key.
   # Don't put a too small interval or your users won't have the time to

@@ -1,6 +1,9 @@
 Grounds::Application.routes.draw do
-  resources :users
+  root to: "products#index"
 
+  devise_for :users
+
+  resources :users, except: :create
   resources :products
 
   # The priority is based upon order of creation: first created -> highest priority.
