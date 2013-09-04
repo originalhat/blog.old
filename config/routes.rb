@@ -1,4 +1,6 @@
 Grounds::Application.routes.draw do
+  root :to => "products#index"
+
   devise_for :users
   resources :products
 
@@ -44,7 +46,7 @@ Grounds::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
