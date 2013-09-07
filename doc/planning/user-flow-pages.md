@@ -8,6 +8,10 @@ The standard flow for all users will involve **(1)** viewing the product catalog
 
 ### Product Catalog
 
+The **Product Catalog** gives the user a marketplace in which to view the products we plan on offering (primarily coffee grounds, obviously). Envisioned to be a storefront, similar in nature to something like Steam, where promotional items can be pushed higher in the "stack" and other interesting subcategories can be viewed easily.
+
+NOTE: This is probably the most important page, and will house the largest part of functionality. Nailing the right layout and UX flow for this page will be a huge determining factor in this projects success.
+
 ### Product Information
 
 ### Registration
