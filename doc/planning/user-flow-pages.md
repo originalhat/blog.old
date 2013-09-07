@@ -14,6 +14,10 @@ NOTE: This is probably the most important page, and will house the largest part 
 
 ### Product Information
 
+The **Product Information** page(s) will be ancillary content for individual products, providing detailed information on each product either through an independent page, a modal, slide up, or some other delivery mechanism.
+
+This is an extension for the Product Catalog, but allows for easy integration, modularity, and a clutter free Product Catalog by extracting this functionality into an independent component.
+
 ### Registration
 
 ### Login
