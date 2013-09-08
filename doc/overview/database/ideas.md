@@ -1,4 +1,4 @@
-# Overview::DBSchema
+# Overview::Database::Ideas
 
 Just shooting out what I can think of off the top of my head, needs refinement.
 

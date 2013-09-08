@@ -1,4 +1,4 @@
-# Scratch Notes
+# Scratch::Notes
 
 ## Overview
 
