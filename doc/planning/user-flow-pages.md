@@ -1,10 +1,12 @@
-# Grounds & Grounds
+# Overview::Views
 
 ## User Flow
 
 The standard flow for all users will involve **(1)** viewing the product catalog, which grants them total access to see all *Grounds & Grounds* products. A user may then **(2)** click on a product to gain access to additional information. If a customer wishes to purchase this product, and *is not logged in*, they may either **(3a)** register then be redirected to checkout, or **(3b)** or login and be redirected to checkout. If the user is already logged in, they may **(3c)** proceed directly to the checkout.
 
-## Primary Pages
+## Primary Views
+
+Side note regarding the wording of each "view" and "page"  - this is intended to be an abstract definition of which could be applied to a webpage or a native mobile application.
 
 ### Product Catalog
 
@@ -35,8 +37,8 @@ I would like to see, at least, the following information for a given product:
 
 Self described, this is a page with registration for users. I'd like to keep the required fields to a minimum…
 
-1. EMAIL
-2. PASSWORD
+1. Email Address
+2. Password
 
 There's a few reasons why I think this should be kept to a minimal amount of required fields and login options, primarily that simplicity is the core to any highly successful model. We're striving for convenience here. Additional complexity to the user is a *bad* idea, and should be avoided at all costs.
 
@@ -62,4 +64,37 @@ The checkout page will contain the largest form-based complexity, with multiple 
 
 ### Account Management
 
+This is a rather straight forward page that houses the account information for the given signed in user. The primary purpose of this interface is allow the user to update their information, this information will include:
+
+1. Email Address
+2. Password
+3. Billing Address
+    - First Name
+    - Last Name
+    - Address
+    - Unit / Apt.
+    - ZIP Code
+    - City
+    - State
+4. Shipping Address
+5. Payment Information (details TBD)
+6. Gravatar / Avatar (slated for later release)
+7. *Remember Me*
+
+If a user has recently signed up and not purchased anything, most of this information will be blank. If the user has made a purchase or proactively added their billing information and have opted in to be *remembered*, this page will be populated with their given information.
+
+Another major feature of the Account Management page is the ability to track and view orders. There should ideally be an hourly update that gives the user basic information about the progress of their purchase.
+
+Another useful feature would be to include a "flash" notification to to encourage the user to populate this interface with all their shipping and billing information proactively, thus simplifying and encouraging additional purchases in the future.
+
 ### Admin Interface
+
+TBD.
+
+
+
+
+
+
+
+

@@ -11,13 +11,13 @@ Web based application with two primary goals:
 
 - add new products to the market place
 - remove old products from the market place
-- view pending orders (with status)- 
+- view pending orders (with status)-
 - modify orders
 - place a product on promotion
 
 ### MarketPlace
 
-- create account and login 
+- create account and login
 - view products(s)
 - buy product(s)
 
