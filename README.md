@@ -1,4 +1,4 @@
-# Grounds & Grounds
+# Grounds ✘ Grounds
 
 *Putting the buzz back into coffee.*
 

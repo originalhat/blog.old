@@ -69,11 +69,11 @@ This boutique / gourmet coffee business could be segwayed into other products th
 
 ## Thoughts: Day 2
 
-I've revised my ideas after the day following initial inception. Composting is a difficult sell, although I feel like there's still something worthwhile to be extracted from the concepts of "Grounds & Grounds." It may make more sense to put an emphasis on the coffee delivery / consumption business and a de-emphasized (yet still relevant) emphasis on the acceptance of compostable matter.
+I've revised my ideas after the day following initial inception. Composting is a difficult sell, although I feel like there's still something worthwhile to be extracted from the concepts of "Grounds ✘ Grounds." It may make more sense to put an emphasis on the coffee delivery / consumption business and a de-emphasized (yet still relevant) emphasis on the acceptance of compostable matter.
 
 The idea of deliverable coffee has a strong selling point, particularly with regard to the "urban consumer" and the chic nature of the product. Gathering a consumers used coffee grounds has a worthwhile ascetic to it, gives the consumer a sense of purpose, introduces us to them in a marketplace, and allows us to distribute a organically rich product to local composters.
 
-Cavet: do we lose something special when we disassociate the concept of "Grounds & Grounds" too much? There's business potential there.
+Cavet: do we lose something special when we disassociate the concept of "Grounds ✘ Grounds" too much? There's business potential there.
 
 The "process":
 
