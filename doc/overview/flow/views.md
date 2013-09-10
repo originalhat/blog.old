@@ -2,7 +2,7 @@
 
 ## User Flow
 
-The standard flow for all users will involve **(1)** viewing the product catalog, which grants them total access to see all *Grounds & Grounds* products. A user may then **(2)** click on a product to gain access to additional information. If a customer wishes to purchase this product, and *is not logged in*, they may either **(3a)** register then be redirected to checkout, or **(3b)** or login and be redirected to checkout. If the user is already logged in, they may **(3c)** proceed directly to the checkout.
+The standard flow for all users will involve **(1)** viewing the product catalog, which grants them total access to see all *Grounds ✘ Grounds* products. A user may then **(2)** click on a product to gain access to additional information. If a customer wishes to purchase this product, and *is not logged in*, they may either **(3a)** register then be redirected to checkout, or **(3b)** or login and be redirected to checkout. If the user is already logged in, they may **(3c)** proceed directly to the checkout.
 
 ## Primary Views
 
@@ -89,8 +89,15 @@ Another useful feature would be to include a "flash" notification to to encourag
 
 ### Admin Interface
 
-TBD.
+This will soon become a mighty and powerful portal for the overlords of Grounds ✘ Grounds when managing orders, customers, B2B transactions, shipping overview, etc. The goal is to give an outward facing interface that gives internal staff with an easy mechanism to look at pending orders, users information, and other administrative tools.
 
+For the sake of keeping the feature list to a MVP, only the bare essentials will be stated - there are *many* more features I'd like to see...
+
+1. Orders information
+2. Users information
+3. Product information
+
+(more tbd…needs more thought)
 
 
 
