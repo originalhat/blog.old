@@ -4,7 +4,7 @@
 
 TBD
 
->What I like best about being in business for myself is:
+>What I like best about beinxg in business for myself is:
 
 TBD
 
