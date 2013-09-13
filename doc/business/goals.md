@@ -18,21 +18,25 @@ A big reason for wanting to be in the business of business, is the ability to cr
 
 There's the grand allure of building a business and a product that harps down to a primordial essence in me. The idea of taking something from nothing, and turning it into an object of value, respect and pride is *very appealing* to me. I want to BUILD THINGS, and I want to be able to push myself further than any employer could ever do!
 
->Within **six months** I would like my business to be:
+>Within **six months** I would like the business to be:
 
-TBD
+Within six months (mid-march 2014), I would like to see serious development efforts underway to get the primary product, Grounds ✘ Grounds up and running. Estimating where the process will be at, specifically, will be tough to estimate. Ultimately however, the legal, business, and planning stages will be well behind us, clearing the path for heavy duty technical development.
 
->Within **one year** I would like my business to be:
+>Within **one year** I would like the business to be:
 
-TBD
+At the very least, it would be good to see the product nearing a completed state, a point of reaching a MVP. The aspects of business, legal and planning will be quite distant, and the process of adding polish to the product will be in full swing. Ideally, we could ship, but we're not only in the process of finishing the technical side of things, but beginning to showcase and engage with the B2B side of things to get our inventory "stocked."
 
->Within **five years** I would like my business to be:
+>Within **two year** I would like the business to be:
 
-TBD
+By the fall of 2015 we should begin to see sales increasing and our product line diversifying. There will continue to be technical enhancements and additional features being added to the core product. This stage of the business will predominately be about gaining new customers, spreading virally, saturating the marketplace, marketing, adding products to our lineup and adding additional "polish" to the core product.
 
->Within **ten years** I would like my business to be:
+>Within **five years** I would like the business to be:
 
-TBD
+At this point, I'd like to see more of the last "two years" - enhance the core product, building the inventory, gaining more customers, etc. If things are progressing well, it would be a great time to consider expanding to additional cities, looking for extra funding sources, and bringing on new talent.
+
+>Within **ten years** I would like the business to be:
+
+This is the point where we're filthy rich, and only work Fridays. The business is on autopilot and is managed by some MBA right out of Harvard. Who give's a fuck, we could die rich. Probably a good place to start working on building another business.
 
 >When I look back over the past "five" years of my career I feel:
 
@@ -48,8 +52,13 @@ TBD
 
 >The area of my business I really excel in is:
 
-TBD
+1. Organization
+2. Time Management
+3. Technical Skills (building the product)
+4. Big / Little Picture
+5. Details
 
 >The area of my business I don't really excel in is:
 
-TBD
+1. Legal Strategy / Knowledge
+2. Business Planning (e.g. market research)
