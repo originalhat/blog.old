@@ -20,7 +20,7 @@ There's the grand allure of building a business and a product that harps down to
 
 >Within **six months** I would like the business to be:
 
-Within six months (mid-march 2014), I would like to see serious development efforts underway to get the primary product, Grounds ✘ Grounds up and running. Estimating where the process will be at, specifically, will be tough to estimate. Ultimately however, the legal, business, and planning stages will be well behind us, clearing the path for heavy duty technical development.
+Within six months (mid-march 2014), I would like to see serious development efforts underway to get the primary product, Grounds ✘ Grounds, up and running. Estimating where the process will be at, specifically, will be tough to estimate. Ultimately however, the legal, business, and planning stages will be well behind us, clearing the path for heavy duty technical development.
 
 >Within **one year** I would like the business to be:
 
