@@ -18,19 +18,23 @@ A big reason for wanting to be in the business of business, is the ability to cr
 
 There's the grand allure of building a business and a product that harps down to a primordial essence in me. The idea of taking something from nothing, and turning it into an object of value, respect and pride is *very appealing* to me. I want to BUILD THINGS, and I want to be able to push myself further than any employer could ever do!
 
->What I like best about being in business for myself is:
+>Within **six months** I would like my business to be:
 
 TBD
 
->Within five years I would like my business to be:
+>Within **one year** I would like my business to be:
 
 TBD
 
->When I look back over the past five years of my career I feel:
+>Within **five years** I would like my business to be:
 
 TBD
 
-> My financial condition as of today is:
+>Within **ten years** I would like my business to be:
+
+TBD
+
+>When I look back over the past "five" years of my career I feel:
 
 TBD
 
@@ -47,3 +51,5 @@ TBD
 TBD
 
 >The area of my business I don't really excel in is:
+
+TBD
