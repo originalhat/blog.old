@@ -40,15 +40,19 @@ This is the point where we're filthy rich, and only work Fridays. The business i
 
 >When I look back over the past "five" years of my career I feel:
 
-TBD
+Frustrated with the lack of competence, drive and innovation in a field ripe for producing interesting and worthwhile products. Mediocrity is a the bane of my existence, and is a mortal sin of progress. On a lighter note, I'm very happy with the knowledge I've managed to accumulate thus far, it will give a significant advantage to the development of this product.
+
+A large majority of my career in the last "five" years was in school, which is benign in comparison to the experiences and knowledge accumulated in the "real world." Despite these great opportunities to "do well for myself," I still leave work at the end of the day knowing there's a greater potential waiting to be tapped. Playing the games of politics and ass kissing for a mediocre product only can go so far before you realize that there are more interesting projects out there to work on.
+
+All around, I feel like my working experiences have been positive, and I'd like to continue to engage in them, but I do feel as if there is something more challenging and interesting to be accomplished.
 
 >I fell the next thing I must do about my business is:
 
-TBD
+Get a comprehensive plan together with detailed strategies and technical implementation details sorted out and formalized.
 
 >The most important part of my business (or will be):
 
-TBD
+Innovation. The company should be autonomous, and stay out the hands of third parties as much as possible. Relinquishing or slowly losing control is not something I would particularly enjoy. Obviously a successful business will be comprised of a well planned and executed business strategy, a brilliant product, and a strong consumer base. This success is really the most important thing to me, as without it there is no longevity of the business.
 
 >The area of my business I really excel in is:
 
@@ -62,3 +66,4 @@ TBD
 
 1. Legal Strategy / Knowledge
 2. Business Planning (e.g. market research)
+3. B2B Logistics / Contracting
