@@ -36,6 +36,7 @@
     </control>
     <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="1033" y="170" w="54" h="31" measuredW="48" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
+        <state>selected</state>
         <text>Blog</text>
       </controlProperties>
     </control>
