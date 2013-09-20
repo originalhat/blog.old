@@ -82,3 +82,15 @@ The "process":
 3. Delivered via Scootsters
 4. Get Old Grounds
 5. Recycle Grounds Back into the Ground.
+
+## FUCK YOU IDEA
+
+Not sure if I like it, but one option to consider…
+
+Creating a two-way marketplace that not only can be used to sell and market coffee to consumers, but also allow for producers to add their products and managed the shipping,  etc. This REALLY makes us a middle man, unlike with previously discussed and emerging models, with the primary advantage of removing the overhead of needing to market and ship products directly to the consumer. Essentially, we just facilitate the connection between the two parties - rather than becoming a fully fledged marketplace in which we "stock" and "ship" the product.
+
+The biggest disadvantage I see with this approach is the lack of control over the user's purchasing experience. There is also the potential that the producer may attempt to leverage our marketplace by extrapolating customers to their own third-party site. There would be additional complexity and possibility to more conflicts between customers and producers, that ultimately, would need to be mediated by us.
+
+The biggest advantage to this is, we can instantly start shipping products right out the gate. There's no requirement to stock inventory or manage shipping (assuming everything goes according to the plan).
+
+**Not really that convinced this is going to be good for the long term...**
