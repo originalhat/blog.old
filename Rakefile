@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Grounds::Application.load_tasks
+Grndz::Application.load_tasks
