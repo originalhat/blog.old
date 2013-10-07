@@ -1,5 +1,9 @@
 Grndz::Application.routes.draw do
+
   resources :posts
+
+  get 'blog/posts'     => 'posts#index'
+  get 'blog/posts/:id' => 'posts#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -41,7 +45,7 @@ Grndz::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
