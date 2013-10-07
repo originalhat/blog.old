@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'slim'
+
 gem 'rspec'
 gem 'rspec-rails'
 
