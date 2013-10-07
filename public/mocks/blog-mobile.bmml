@@ -1,0 +1,59 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1038" measuredH="673" mockupW="282" mockupH="573">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="790" y="551" w="54" h="-1" measuredW="51" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>TDG</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::SubTitle" x="790" y="211" w="197" h="-1" measuredW="179" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Peasants%20Drink%20Water</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Paragraph" x="790" y="292" w="206" h="226" measuredW="200" measuredH="80" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>How%20does%20this%20work%3F%20We%20take%20both%20versions%20of%20the%20model%2C%20and%20using%20binary%20space%20partitioning%2C%20we%20compute%20the%20added%2C%20removed%2C%20and%20unchanged%20parts.%20This%20is%20done%20using%20csgtool%2C%20a%20C%20library%20paired%20with%20a%20Ruby%20gem%20via%20FFI.%20These%20pieces%20are%20cached%20and%20displayed%20by%20the%203D%20viewer%20we%20already%20have%2C%20though%20we%20color%20them%20differently%20and%20play%20with%20their%20transparency%20to%20help%20illustrate%20the%20changes.%20If%20you%20have%20any%20further%20questions%2C%20check%20out%20the%20help%20article.</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="790" y="255" w="18" h="19" measuredW="77" measuredH="79" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="790" y="232" w="144" h="-1" measuredW="127" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>September%2019th%202013</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="815" y="253" w="83" h="-1" measuredW="73" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Devin%20Brown</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="870" y="545" w="42" h="39" measuredW="46" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>HLinesIcon%7Csmall</icon>
+        <state>selected</state>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::iPhone" x="756" y="100" w="-1" h="-1" measuredW="282" measuredH="573" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <model>IPhone5</model>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::HRule" x="784" y="533" w="226" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Button" x="912" y="545" w="42" h="39" measuredW="46" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>Help2Icon%7Csmall</icon>
+        <state>selected</state>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::Button" x="954" y="545" w="42" h="39" measuredW="46" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>EmailIcon%7Csmall</icon>
+        <state>selected</state>
+        <text/>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
