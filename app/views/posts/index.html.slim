@@ -1,15 +1,23 @@
-h2 Hot and Fresh, Your Daily Grounds!
+h2 Hot and Fresh. Your Daily Grounds!
 
 - @posts.each do |post|
-  h3= post.title
-  .row
-    .col-md-2
-      h4= post.posted
-    .col-md-2
-      h4
-        strong= post.author
+  .post-container
+    h3
+      = post.title
 
-  p= post.body
+    .row
+      .col-sm-3
+        h5
+          = clean_date post.posted
+      .col-sm-9
+        ul.list-inline.blogger-info-group
+          / TODO: need user model w/ avatar URL.
+          li = image_tag "http://images.sciencedaily.com/2011/02/110218142451-thumb.jpg", class: "blogger-avatar"
+          li
+            h5
+              strong = post.author
 
-/ TODO: ...if user signed in...
-= link_to 'New Post', new_post_path
+  p = post.body.html_safe
+
+#new-post-button
+  = link_to 'New Post', new_post_path, class: "btn btn-lg btn-info"

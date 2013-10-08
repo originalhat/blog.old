@@ -7,10 +7,10 @@ html
     = csrf_meta_tags
 
   body
-    .container
-      .jumbotron
-        / TODO: smarter logic for getting current page title?
-        h1 Grndz #{params[:controller].capitalize}
+    .jumbotron
+      .container
+        h1 Grndz:#{params[:controller].capitalize}
 
+    .container
       = yield
 
