@@ -10,7 +10,9 @@ html
   body
     .jumbotron
       .container
-        h1 Grndz:#{params[:controller].capitalize}
+        h1 #{params[:controller].capitalize}
+
+    = render "shared/navbar"
 
     .container
       = yield
