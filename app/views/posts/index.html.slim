@@ -21,3 +21,6 @@ h2 Hot and Fresh. Your Daily Grounds!
 
 #new-post-button
   = link_to 'New Post', new_post_path, class: "btn btn-lg btn-info"
+
+.text-center
+  = will_paginate @posts, renderer: BootstrapPagination::Rails, bootstrap: 3

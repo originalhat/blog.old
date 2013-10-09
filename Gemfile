@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
+
 gem 'slim'
 
 gem 'rspec'
