@@ -1,6 +1,6 @@
 - @posts.each do |post|
   .post-container
-    h3
+    h2
       = link_to post.title, post_path(post)
 
     .row
@@ -16,6 +16,8 @@
               strong = post.author
 
   p = post.body.html_safe
+
+  hr
 
 .text-center
   = will_paginate @posts, renderer: BootstrapPagination::Rails, bootstrap: 3
