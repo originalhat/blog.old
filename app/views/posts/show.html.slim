@@ -18,6 +18,7 @@ p = @post.body.html_safe
 
 hr
 
+/ TODO: this will be only visible for logged in users.
 .btn-group
   = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
   = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
