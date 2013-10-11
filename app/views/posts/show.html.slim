@@ -1,16 +1,22 @@
-p#notice= notice
-p
-  strong Title:
-  = @post.title
-p
-  strong Posted:
-  = @post.posted
-p
-  strong Author:
-  = @post.author
-p
-  strong Body:
-  = @post.body.html_safe
+.post-container
+  h2
+    = link_to @post.title, post_path(@post)
+
+  .row
+    .col-sm-3
+      h5
+        = clean_date @post.posted
+    .col-sm-9
+      ul.list-inline.blogger-info-group
+        / TODO: need user model w/ avatar URL.
+        li = image_tag "http://images.sciencedaily.com/2011/02/110218142451-thumb.jpg", class: "blogger-avatar"
+        li
+          h5
+            strong = @post.author
+
+p = @post.body.html_safe
+
+hr
 
 .btn-group
   = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
