@@ -1,5 +1,13 @@
-.jumbotron#grndz-jumbotron {
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Subrayada);
+
+.jumbotron#grndz-blog-jumbotron {
+  background     : #FFF;
+  margin-bottom  : 0px;
   margin-top     : 50px;
+  padding-bottom : 0px;
   padding-top    : 10px;
-  padding-bottom : 20px;
+
+  h1 {
+    font-family     : 'Montserrat Subrayada', sans-serif;
+  }
 }

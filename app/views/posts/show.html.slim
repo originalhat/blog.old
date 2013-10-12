@@ -1,25 +1,14 @@
 .post-container
-  h2
-    = link_to @post.title, post_path(@post)
+  h2 = link_to @post.title, post_path(@post)
 
-  .row
-    .col-sm-3
-      h5
-        = clean_date @post.posted
-    .col-sm-9
-      ul.list-inline.blogger-info-group
-        / TODO: need user model w/ avatar URL.
-        li = image_tag "http://images.sciencedaily.com/2011/02/110218142451-thumb.jpg", class: "blogger-avatar"
-        li
-          h5
-            strong = @post.author
+  = render 'shared/blogger_info_group'
 
-p = @post.body.html_safe
+  p = @post.body.html_safe
 
-hr
+  hr
 
-/ TODO: this will be only visible for logged in users.
-.btn-group
-  = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
-  = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
-  = link_to "Delete", @post, :method => :delete, class: "btn btn-lg btn-danger"
+  / TODO: this will be only visible for logged in users.
+  .btn-group
+    = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
+    = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
+    = link_to "Delete", @post, :method => :delete, class: "btn btn-lg btn-danger"

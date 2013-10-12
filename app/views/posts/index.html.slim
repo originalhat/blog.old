@@ -1,23 +1,12 @@
 - @posts.each do |post|
   .post-container
-    h2
-      = link_to post.title, post_path(post)
+    h2 = link_to post.title, post_path(post)
 
-    .row
-      .col-sm-3
-        h5
-          = clean_date post.posted
-      .col-sm-9
-        ul.list-inline.blogger-info-group
-          / TODO: need user model w/ avatar URL.
-          li = image_tag "http://images.sciencedaily.com/2011/02/110218142451-thumb.jpg", class: "blogger-avatar"
-          li
-            h5
-              strong = post.author
+    = render partial: 'shared/blogger_info_group', locals: { post: post }
 
-  p = post.body.html_safe
+    p = post.body.html_safe
 
-  hr
+    hr
 
 .text-center
   = will_paginate @posts, renderer: BootstrapPagination::Rails, bootstrap: 3

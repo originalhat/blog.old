@@ -1,0 +1,17 @@
+.post-container {
+  .blogger-info-group {
+    .post-date, .post-author, .post-icon {
+      display       : inline;
+      padding-right : 14px;
+    }
+
+    color : #999;
+  }
+
+  padding-bottom : 15px;
+}
+
+#new-post-button {
+  padding-top    : 30px;
+  padding-bottom : 30px;
+}
