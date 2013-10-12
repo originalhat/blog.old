@@ -1,0 +1,7 @@
+= render partial: 'shared/blog_post', locals: { post: @post }
+
+/ TODO: this will be only visible for logged in users.
+.btn-group
+  = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
+  = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
+  = link_to "Delete", @post, :method => :delete, class: "btn btn-lg btn-danger"

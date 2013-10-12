@@ -1,0 +1,16 @@
+$link_color : #781900;
+
+body {
+  font-family  : 'Helvetica Neue', Helvetica, Arial, freesans, sans-serif;
+  font-size    : 16px;
+  font-style   : normal;
+  font-variant : normal;
+  font-weight  : normal;
+}
+
+h1, h2 {
+  a {
+    &:hover { color : $link_color }
+    color : $link_color;
+  }
+}

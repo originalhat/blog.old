@@ -1,0 +1,5 @@
+- @posts.each do |post|
+  = render partial: 'shared/blog_post', locals: { post: post }
+
+.text-center
+  = will_paginate @posts, renderer: BootstrapPagination::Rails, bootstrap: 3
