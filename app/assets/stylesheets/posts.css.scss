@@ -1,8 +1,9 @@
 .post-container {
   .blogger-info-group {
-    .post-date, .post-author, .post-icon {
+    .post-icon {padding-right : 7px; }
+    .post-date, .post-author {
       display       : inline;
-      padding-right : 14px;
+      padding-right : 30px;
     }
 
     color : #999;
