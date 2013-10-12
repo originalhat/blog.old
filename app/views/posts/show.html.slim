@@ -1,14 +1,7 @@
-.post-container
-  h2 = link_to @post.title, post_path(@post)
+= render partial: 'shared/blog_post', locals: { post: @post }
 
-  = render 'shared/blogger_info_group'
-
-  p = @post.body.html_safe
-
-  hr
-
-  / TODO: this will be only visible for logged in users.
-  .btn-group
-    = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
-    = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
-    = link_to "Delete", @post, :method => :delete, class: "btn btn-lg btn-danger"
+/ TODO: this will be only visible for logged in users.
+.btn-group
+  = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
+  = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
+  = link_to "Delete", @post, :method => :delete, class: "btn btn-lg btn-danger"
