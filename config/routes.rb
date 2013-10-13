@@ -4,7 +4,7 @@ Grndz::Application.routes.draw do
 
   resources :posts
 
-  get 'about' => 'about#show', as: 'about_us'
+  get 'about' => 'application#about_page', as: 'about_us'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
