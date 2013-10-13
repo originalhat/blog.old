@@ -1,16 +1,23 @@
 require 'spec_helper'
 
 describe PostsController do
-  describe "INDEX" do
-    it "should render the index template" do
+ describe "GET #index" do
+    it "responds successfully with an HTTP 200 status code" do
+      get :index
+      expect(response).to be_success
+      expect(response.status).to eq(200)
+    end
+
+    it "renders the index template" do
       get :index
       expect(response).to render_template("index")
     end
 
-    it "assigns @posts" do
-      post = Post.create!
+    it "loads all of the posts into @posts" do
+      post1, post2 = Post.create!, Post.create!
       get :index
-      expect(assigns(:posts)).to eq([post])
+
+      expect(assigns(:posts)).to match_array([post1, post2])
     end
   end
 end
