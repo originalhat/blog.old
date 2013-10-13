@@ -10,7 +10,7 @@ body {
 
 h1, h2 {
   a {
-    &:hover { color : $link_color }
+    &:hover, &:focus { color : $link_color }
     color : $link_color;
   }
 }
