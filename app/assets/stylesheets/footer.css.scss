@@ -1,0 +1,20 @@
+#footer {
+
+  border-top : 1px solid #999;
+  color      : #999;
+
+  padding-bottom : 15px;
+  padding-top    : 15px;
+  text-align     : center;
+
+  .footer-logo {
+    color         : #444;
+    font-size     : 26px;
+    padding-left  : 40px;
+    padding-right : 40px;
+
+    .glyphicon {
+      top : 8px;
+    }
+  }
+}
