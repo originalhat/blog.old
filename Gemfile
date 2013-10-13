@@ -5,8 +5,10 @@ gem 'will_paginate-bootstrap'
 
 gem 'slim'
 
-gem 'rspec'
-gem 'rspec-rails'
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
