@@ -5,6 +5,8 @@ Grndz::Application.routes.draw do
   get 'blog/posts'     => 'posts#index'
   get 'blog/posts/:id' => 'posts#show'
 
+  get 'about'          => 'about#show', as: 'about_us'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
