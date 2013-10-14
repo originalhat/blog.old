@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'posts/show' do
   let(:post) do
-    stub_model(Post, id: 1, title: "coffee", posted: DateTime.now, author: "dude", body: "stuff")
+    stub_model(Post, title: "coffee", posted: DateTime.now, author: "dude", body: "stuff")
   end
 
   before(:each) do
