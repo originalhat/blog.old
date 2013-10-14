@@ -1,7 +1,7 @@
 - p = @post || post
 
 .post-container
-  h2 = link_to post.title, post_path(post)
+  h2 = link_to p.title, post_path(p)
 
   .blogger-info-group
     .post-icon.glyphicon.glyphicon-calendar
@@ -11,6 +11,6 @@
     .post-author
       = p.author
 
-  p = post.body.html_safe
+  p = p.body.html_safe
 
   br
