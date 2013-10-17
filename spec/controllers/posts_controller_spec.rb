@@ -85,6 +85,7 @@ describe PostsController do
     end
 
     describe "faliure" do
+      # TODO: Figure out a way to make these tests "fail".
       it "doesn't save the post to the database" do
         pending("Failure requires model before_filter checks.")
         expect(Post.first).to be_nil
