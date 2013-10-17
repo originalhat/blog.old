@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 
+gem 'devise'
+
 gem 'will_paginate'
 gem 'will_paginate-bootstrap'
 
 gem 'slim'
 
 group :development, :test do
+  gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'guard'

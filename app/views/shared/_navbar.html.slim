@@ -14,5 +14,12 @@ nav.navbar.navbar-inverse.navbar-fixed-top role="navigation"
           = link_to 'About Us', about_us_path
         li
           a href="mailto:contact@grndz.com" Contact
-        li
-          = link_to 'New Post', new_post_path
+        - if admin_signed_in?
+          li
+            a |
+          li
+            = link_to 'New Post', new_post_path
+          li
+            = link_to 'Account', "/admins/edit"
+          li
+            = link_to 'Sign Out', destroy_admin_session_path, :method => :delete

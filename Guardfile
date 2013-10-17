@@ -8,6 +8,9 @@ guard :rspec do
   watch(%r{^app/(.*)(\.erb|\.haml|\.slim)$}) { |m| "spec/#{m[1]}#{m[2]}_spec.rb" }
   watch(%r{^lib/(.+)\.rb$})                  { |m| "spec/lib/#{m[1]}_spec.rb" }
 
+  # Watch Factories
+  watch('spec/factories.rb') { "spec" }
+
   # Watch Routing
   watch('config/routes.rb') { "spec/routing" }
 
@@ -25,9 +28,13 @@ guard :rspec do
     "spec/views/#{m[1]}/#{m[2]}_spec.rb"
   end
 
+  # Watch '_' Views
+  watch(%r{^app/views/shared/\_(.+)\.html\.slim$}) do |m|
+    "spec/views/shared/#{m[1]}_spec.rb"
+  end
+
   # Watch Models
   watch(%r{^app/models/(.+)\.rb$}) do |m|
-    puts m.inspect
     "spec/models/#{m[1]}_spec.rb"
   end
 
