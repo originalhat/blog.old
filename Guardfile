@@ -27,7 +27,6 @@ guard :rspec do
 
   # Watch Models
   watch(%r{^app/models/(.+)\.rb$}) do |m|
-    puts m.inspect
     "spec/models/#{m[1]}_spec.rb"
   end
 
