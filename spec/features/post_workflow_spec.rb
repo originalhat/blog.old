@@ -31,7 +31,17 @@ feature "post workflow", type: :feature do
     expect(page).to have_content "Author"
     expect(page).to have_content "Body"
 
-    # "should let the user create a new post"
+    # "should NOT let the user create an invalid new post"
+    fill_in "post_title",  with: ""
+    fill_in "post_author", with: ""
+    fill_in "post_body",   with: ""
+    click_button "Create Post"
+    expect(page).to have_content "There was a problem creating that post."
+    expect(page).to have_content "Title is a required field"
+    expect(page).to have_content "Author is a required field"
+    expect(page).to have_content "Body is a required field"
+
+    # "should let the user create a valid new post"
     fill_in "post_title",  with: first_title
     fill_in "post_author", with: first_author
     fill_in "post_body",   with: first_body

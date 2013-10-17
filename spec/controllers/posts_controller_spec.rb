@@ -14,7 +14,9 @@ describe PostsController do
     end
 
     it "loads all of the posts into @posts" do
-      post1, post2 = Post.create!, Post.create!
+      post1 = Post.create!(title: "a", author: "b", body: "stuff")
+      post2 = Post.create!(title: "b", author: "a", body: "junks")
+
       get :index
 
       expect(assigns(:posts)).to match_array([post1, post2])
@@ -85,20 +87,12 @@ describe PostsController do
     end
 
     describe "faliure" do
-      # TODO: Figure out a way to make these tests "fail".
+      let!(:post_failure) do
+        Post.create(title: "", author: "", body: "")
+      end
+
       it "doesn't save the post to the database" do
-        pending("Failure requires model before_filter checks.")
         expect(Post.first).to be_nil
-      end
-
-      it "redirects to the new post page" do
-        pending("Failure requires model before_filter checks.")
-        response.should redirect_to "/posts/new"
-      end
-
-      it "loads the proper success notice" do
-        pending("Failure requires model before_filter checks.")
-        expect(flash[:notice]).to eq("Post was not created.")
       end
     end
   end
