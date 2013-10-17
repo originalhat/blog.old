@@ -1,6 +1,6 @@
 .post-container {
   .blogger-info-group {
-    .post-icon {padding-right : 7px; }
+    .post-icon { padding-right : 7px; }
     .post-date, .post-author {
       display       : inline;
       padding-right : 30px;
@@ -8,6 +8,8 @@
 
     color : #999;
   }
+
+  .post-body { padding-top : 5px; }
 }
 
 #new-post-button {
