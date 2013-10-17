@@ -1,6 +1,19 @@
 $coffee_brown : #331400;
+$toffee_brown : #B0946C;
 
 .navbar {
   background    : $coffee_brown;
   border-radius : 0;
+
+  .anti-decoration {
+    color           : $toffee_brown;
+    text-decoration : none;
+  }
+
+  .glyphicon.glyphicon-leaf {
+    color     : $toffee_brown;
+    font-size : 20px;
+    top       : 0px;
+  }
 }
+
