@@ -9,11 +9,25 @@ feature "post workflow", type: :feature do
   let(:second_author) { "Mr. Losing" }
   let(:second_body)   { "I lost my pants today." }
 
+  let(:admin) { FactoryGirl.create(:admin) }
+
   before(:each) do
-    visit "/"
+    Post.create!(title: "Existing Post", author: "dude", body: "stuff")
+    visit "/admins/sign_in"
   end
 
-  scenario "creating, viewing, editing and deleting a post" do
+  scenario "signin, creating, viewing, editing and deleting a post" do
+
+    # "expect to be on the sign in page"
+    expect(page).to have_content "Sign in"
+
+    # "should let the admin sign in"
+    fill_in "admin_email",    with: admin.email
+    fill_in "admin_password", with: admin.password
+    click_button "Sign in"
+
+    # "expect to be on the home page"
+    expect(page).to have_content "Existing Post"
 
     # "should NOT have the user's post on the home page"
     expect(page).to have_no_content first_title
@@ -90,5 +104,16 @@ feature "post workflow", type: :feature do
     expect(page).to have_no_content second_title
     expect(page).to have_no_content second_author
     expect(page).to have_no_content second_body
+  end
+
+  scenario "NOT signed in as an admin" do
+    expect(page).to have_content "Sign in"
+
+    # "should NOT let the visitor sign in"
+    fill_in "admin_email",    with: "the@dude.com"
+    fill_in "admin_password", with: "bowling"
+    click_button "Sign in"
+
+    expect(page).to have_content "Sign in"
   end
 end

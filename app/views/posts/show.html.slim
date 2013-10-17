@@ -3,5 +3,6 @@
 / TODO: this will be only visible for logged in users.
 #button-controls.btn-group
   = link_to 'Back', posts_path, class: "btn btn-lg btn-default"
-  = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
-  = link_to "Delete", @post, :method => :delete, class: "btn btn-lg btn-danger"
+  - if admin_signed_in?
+    = link_to 'Edit', edit_post_path(@post), class: "btn btn-lg btn-default"
+    = link_to "Delete", @post, :method => :delete, class: "btn btn-lg btn-danger"
