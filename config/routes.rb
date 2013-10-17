@@ -1,6 +1,15 @@
 Grndz::Application.routes.draw do
 
-  devise_for :admins
+  devise_for :admins, skip: 'registrations'
+
+  devise_scope :admin do
+    get    "/admins/cancel", to: "devise/registrations#cancel"
+    get    "/admins/edit",   to: "devise/registrations#edit"
+    patch  "/admins",        to: "devise/registrations#update"
+    put    "/admins",        to: "devise/registrations#update"
+    delete "/admins",        to: "devise/registrations#destroy"
+  end
+
   root to: 'posts#index'
 
   resources :posts

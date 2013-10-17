@@ -45,4 +45,26 @@ describe "routing" do
       expect(delete: "/posts/1").to route_to(controller: "posts", action: "destroy", id: "1")
     end
   end
+
+  describe "Devise/Registrations" do
+    it "routes GET /admins/cancel to devise/registrations#cancel" do
+      expect(get: "/admins/cancel").to route_to(controller: "devise/registrations", action: "cancel")
+    end
+
+    it "routes GET /admins/edit to devise/registrations#edit" do
+      expect(get: "/admins/edit").to route_to(controller: "devise/registrations", action: "edit")
+    end
+
+    it "routes PATCH /admins to devise/registrations#update" do
+      expect(patch: "/admins").to route_to(controller: "devise/registrations", action: "update")
+    end
+
+    it "routes PUT /admins to devise/registrations#update" do
+      expect(put: "/admins").to route_to(controller: "devise/registrations", action: "update")
+    end
+
+    it "routes DELETE /admins to devise/registrations#destroy" do
+      expect(delete: "/admins").to route_to(controller: "devise/registrations", action: "destroy")
+    end
+  end
 end
