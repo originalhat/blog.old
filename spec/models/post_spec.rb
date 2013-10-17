@@ -16,4 +16,16 @@ describe Post do
   it "should automatically assign a Time on create" do
     expect(Post.first[:created_at]).not_to be_nil
   end
+
+  it "should require an title" do
+    Post.create(title: "", author: "Arnold", body: "Shalom!").should_not be_valid
+  end
+
+  it "should require an author" do
+    Post.create(title: "Arnold", author: "", body: "Shalom!").should_not be_valid
+  end
+
+  it "should require a body" do
+    Post.create(title: "Shalom!", author: "Arnold", body: "").should_not be_valid
+  end
 end
