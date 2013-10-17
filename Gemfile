@@ -8,6 +8,8 @@ gem 'slim'
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'guard'
+  gem 'guard-rspec', require: false
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
