@@ -1,4 +1,5 @@
-$link_color : #781900;
+$link_color   : #781900;
+$toffee_brown : #B0946C;
 
 body {
   font-family  : 'Helvetica Neue', Helvetica, Arial, freesans, sans-serif;
@@ -6,6 +7,13 @@ body {
   font-style   : normal;
   font-variant : normal;
   font-weight  : normal;
+}
+
+a {
+  color : $toffee_brown;
+  &:hover {
+    color : #4A3E2D;
+  }
 }
 
 h1, h2 {
