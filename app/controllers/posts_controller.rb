@@ -1,6 +1,8 @@
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
+  # TODO: add before_filter when creating new post.
+
   # GET /posts
   # GET /posts.json
   def index
@@ -31,7 +33,7 @@ class PostsController < ApplicationController
         format.html { redirect_to @post, notice: 'Post was successfully created.' }
         format.json { render action: 'show', status: :created, location: @post }
       else
-        format.html { render action: 'new' }
+        format.html { render action: 'new', notice: 'Post was not created.' }
         format.json { render json: @post.errors, status: :unprocessable_entity }
       end
     end
