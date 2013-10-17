@@ -36,7 +36,7 @@ ActiveRecord::Schema.define(version: 20131017220016) do
 
   create_table "posts", force: true do |t|
     t.string   "title",                                      null: false
-    t.datetime "posted",     default: '2013-10-17 22:14:16', null: false
+    t.datetime "posted",     default: '2013-10-17 22:20:45', null: false
     t.string   "author",                                     null: false
     t.text     "body",                                       null: false
     t.datetime "created_at"
