@@ -12,7 +12,7 @@ feature "post workflow", type: :feature do
   let(:admin) { FactoryGirl.create(:admin) }
 
   before(:each) do
-    Post.create!(title: "Existing Post", author: "dude", body: "stuff")
+    Post.create!(title: "Existing Post", author: "Peanut", body: "stuff")
     visit "/admins/sign_in"
   end
 
@@ -47,23 +47,20 @@ feature "post workflow", type: :feature do
 
     # "should NOT let the user create an invalid new post"
     fill_in "post_title",  with: ""
-    fill_in "post_author", with: ""
     fill_in "post_body",   with: ""
     click_button "Create Post"
     expect(page).to have_content "There was a problem creating that post."
     expect(page).to have_content "Title is a required field"
-    expect(page).to have_content "Author is a required field"
     expect(page).to have_content "Body is a required field"
 
     # "should let the user create a valid new post"
     fill_in "post_title",  with: first_title
-    fill_in "post_author", with: first_author
     fill_in "post_body",   with: first_body
     click_button "Create Post"
 
     # "should have the user's post on the home page"
     expect(page).to have_content first_title
-    expect(page).to have_content first_author
+    expect(page).to have_content "Arnold Brown"
     expect(page).to have_content first_body
 
     # "should let the user go to the home page"
@@ -74,7 +71,7 @@ feature "post workflow", type: :feature do
 
     # "should have the user's post on the post's page"
     expect(page).to have_content first_title
-    expect(page).to have_content first_author
+    expect(page).to have_content "Arnold Brown"
     expect(page).to have_content first_body
 
     # "should let the user go to edit the post page"
@@ -88,13 +85,12 @@ feature "post workflow", type: :feature do
 
     # "should let the user edit the post"
     fill_in "post_title",  with: second_title
-    fill_in "post_author", with: second_author
     fill_in "post_body",   with: second_body
     click_button "Update Post"
 
     # "should have the user's post on the post's page"
     expect(page).to have_content second_title
-    expect(page).to have_content second_author
+    expect(page).to have_content "Arnold Brown"
     expect(page).to have_content second_body
 
     # "should let the user delete their post"

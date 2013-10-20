@@ -3,11 +3,16 @@ include PostsHelper
 
 describe "shared/_blog_post" do
   let(:post) do
-    stub_model(Post, title: "coffee", posted: DateTime.now, author: "dude", body: "<p>stuff</p>")
+    stub_model(Post, author: "Tom", title: "coffee", posted: DateTime.now, body: "<p>stuff</p>")
+  end
+
+  let(:admin) do
+    stub_model(Admin, first_name: "Devin", last_name: "Brown")
   end
 
   before(:each) do
     assign(:post, post)
+    assign(:admin, admin)
     render
   end
 
@@ -21,8 +26,8 @@ describe "shared/_blog_post" do
     response.should have_content clean_date post.posted
   end
 
-  it "should have the post's author" do
-    response.should have_content post.author
+  it "should have the post's author (current user)" do
+    rendered.should have_content "Tom"
   end
 
   it "should have the post's body without visible HTML" do

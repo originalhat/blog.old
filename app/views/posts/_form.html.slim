@@ -12,9 +12,10 @@
     = f.text_field :title, class: "form-control"
   .form-group
     = f.label :author
-    = f.text_field :author, class: "form-control"
+    = f.text_field :author, class: "form-control", value: "#{clean_author}", readonly: true
   .form-group
     = f.label :body
     = f.text_area :body, class: "form-control", rows: "10"
   .form-group
+    / This changes dynamically based on context of the form (Update v. Create)
     = f.submit class: "btn btn-lg btn-warning"
