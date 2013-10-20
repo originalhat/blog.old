@@ -18,11 +18,6 @@ describe 'posts/show' do
     it "should render the 'blog_post' partial" do
       response.should render_template partial: "shared/_blog_post"
     end
-
-    it "should have a working back button" do
-      rendered.should have_css "a[href='#{posts_path}']"
-      rendered.should have_content "Back"
-    end
   end
 
   describe "signed in as admin" do
