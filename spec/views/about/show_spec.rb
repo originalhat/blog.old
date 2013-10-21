@@ -6,7 +6,10 @@ describe 'about/show' do
     render
   end
 
-  it "should render the 'blog_post' partial" do
-    expect(rendered).to include("About Us")
+  it "should render some titles" do
+    expect(rendered).to include("Welcome to Grndz!")
+    expect(rendered).to include("Coffee Porn for Your Entertainment")
   end
+
+
 end
