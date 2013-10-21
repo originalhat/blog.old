@@ -7,4 +7,11 @@ describe ApplicationController do
       expect(response).to render_template("about/show")
     end
   end
+
+  describe "GET #contact_page" do
+    it "should render the contact_page" do
+      get :contact_page
+      expect(response).to render_template("contact/show")
+    end
+  end
 end

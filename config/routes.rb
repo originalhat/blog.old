@@ -1,5 +1,7 @@
 Grndz::Application.routes.draw do
 
+  root to: 'application#about_page'
+
   devise_for :admins, skip: 'registrations'
 
   devise_scope :admin do
@@ -10,11 +12,10 @@ Grndz::Application.routes.draw do
     delete "/admins",        to: "devise/registrations#destroy"
   end
 
-  root to: 'posts#index'
-
   resources :posts
 
-  get 'about' => 'application#about_page', as: 'about_us'
+  get 'about'   => 'application#about_page',   as: 'about'
+  get 'contact' => 'application#contact_page', as: 'contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

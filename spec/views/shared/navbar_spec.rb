@@ -11,14 +11,19 @@ describe "shared/_navbar" do
       rendered.should have_css "span.glyphicon.glyphicon-leaf"
     end
 
-    it "should have a link to 'About Us'" do
-      rendered.should have_css "a[href='#{about_us_path}']"
-      rendered.should have_content "About Us"
+    it "should have a link to 'Home'" do
+      rendered.should have_css "a[href='/']"
+      rendered.should have_content "Home"
     end
 
-    it "should have a link to create a 'Contact Us'" do
-      rendered.should have_css "a[href='#{about_us_path}']"
-      rendered.should have_content "About Us"
+    it "should have a link to 'Blog'" do
+      rendered.should have_css "a[href='#{posts_path}']"
+      rendered.should have_content "Blog"
+    end
+
+    it "should have a link to create a 'Contact'" do
+      rendered.should have_css "a[href='#{contact_path}']"
+      rendered.should have_content "Contact"
     end
   end
 

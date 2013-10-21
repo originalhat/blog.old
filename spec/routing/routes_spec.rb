@@ -6,11 +6,15 @@ describe "routing" do
     it "routes GET /about to hit application#about_page" do
       expect(get: "/about").to route_to(controller: "application", action: "about_page")
     end
+
+    it "routes GET /contact to hit application#contact_page" do
+      expect(get: "/contact").to route_to(controller: "application", action: 'contact_page')
+    end
   end
 
   describe "PostsController" do
     it "routes GET / to hit posts#index" do
-      expect(get: "/").to route_to(controller: "posts", action: "index")
+      expect(get: "/").to route_to(controller: "application", action: "about_page")
     end
 
     it "routes GET /posts to hit posts#index" do

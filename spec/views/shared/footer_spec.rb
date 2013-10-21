@@ -6,7 +6,7 @@ describe "shared/_footer" do
   end
 
   it "should have a link to 'About Us'" do
-    rendered.should have_css "a[href='#{about_us_path}']"
+    rendered.should have_css "a[href='#{about_path}']"
     rendered.should have_content "About Us"
   end
 
@@ -15,7 +15,7 @@ describe "shared/_footer" do
   end
 
   it "should have a link to 'Contact Us'" do
-    rendered.should have_css "a[href='#{about_us_path}']"
-    rendered.should have_content "About Us"
+    rendered.should have_css "a[href='#{contact_path}']"
+    rendered.should have_content "Contact"
   end
 end

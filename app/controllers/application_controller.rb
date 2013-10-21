@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def about_page
     render 'about/show'
   end
+
+  def contact_page
+    render 'contact/show'
+  end
 end
