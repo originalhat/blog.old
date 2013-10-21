@@ -5,6 +5,8 @@ $toffee_brown : #B0946C;
   background    : $coffee_brown;
   border-radius : 0;
 
+  li.active a { background-color : #6E3E01 !important; }
+
   .anti-decoration {
     color           : $toffee_brown;
     text-decoration : none;

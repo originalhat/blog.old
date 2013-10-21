@@ -1,6 +1,27 @@
 require 'spec_helper'
 
 describe "shared/_navbar" do
+
+  describe "nav changes based on current action" do
+    it "should be 'active' when on application#about_path" do
+      params[:action] = "about_page"
+      render
+      rendered.should have_css "li.active a[href='#{root_path}']"
+    end
+
+    it "should be 'active' when on posts#index" do
+      params[:action] = "index"
+      render
+      rendered.should have_css "li.active a[href='#{posts_path}']"
+    end
+
+    it "should be 'active' when on application#contact_path" do
+      params[:action] = "contact_page"
+      render
+      rendered.should have_css "li.active a[href='#{contact_path}']"
+    end
+  end
+
   describe "all users" do
     before(:each) do
       render

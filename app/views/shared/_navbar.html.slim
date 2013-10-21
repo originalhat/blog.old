@@ -10,11 +10,11 @@ nav.navbar.navbar-inverse.navbar-fixed-top role="navigation"
         span.glyphicon.glyphicon-leaf
     .collapse.navbar-collapse.navbar-ex1-collapse
       ul.nav.navbar-nav
-        li
+        li class=(params[:action] == 'about_page' ? 'active' : 'inactive')
           = link_to 'Home', root_path
-        li
+        li class=(params[:action] == 'index' ? 'active' : 'inactive')
           = link_to 'Blog', posts_path
-        li
+        li class=(params[:action] == 'contact_page' ? 'active' : 'inactive')
           = link_to 'Contact', contact_path
 
         - if admin_signed_in?
