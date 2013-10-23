@@ -7,9 +7,6 @@ describe 'about/show' do
   end
 
   it "should render some titles" do
-    expect(rendered).to include("Welcome to Grndz!")
-    expect(rendered).to include("Coffee Porn for Your Entertainment")
+    expect(rendered).to include("About Page")
   end
-
-
 end

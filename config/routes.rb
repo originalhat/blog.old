@@ -1,6 +1,6 @@
 Grndz::Application.routes.draw do
 
-  root to: 'application#about_page'
+  root to: 'application#index'
 
   devise_for :admins, skip: 'registrations'
 
@@ -14,6 +14,7 @@ Grndz::Application.routes.draw do
 
   resources :posts
 
+  get '/'       => 'application#index',        as: 'index'
   get 'about'   => 'application#about_page',   as: 'about'
   get 'contact' => 'application#contact_page', as: 'contact'
 

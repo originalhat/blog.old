@@ -3,22 +3,32 @@ require 'spec_helper'
 describe "shared/_navbar" do
 
   describe "nav changes based on current action" do
-    it "should be 'active' when on application#about_path" do
-      params[:action] = "about_page"
+    it "should be 'active' when on application#index" do
+      params[:controller] = "application"
+      params[:action]     = "index"
       render
       rendered.should have_css "li.active a[href='#{root_path}']"
     end
 
-    it "should be 'active' when on posts#index" do
-      params[:action] = "index"
+    it "should be 'active' when on application#about_path" do
+      params[:controller] = "application"
+      params[:action]     = "about_page"
       render
-      rendered.should have_css "li.active a[href='#{posts_path}']"
+      rendered.should have_css "li.active a[href='#{about_path}']"
     end
 
     it "should be 'active' when on application#contact_path" do
-      params[:action] = "contact_page"
+      params[:controller] = "application"
+      params[:action]     = "contact_page"
       render
       rendered.should have_css "li.active a[href='#{contact_path}']"
+    end
+
+    it "should be 'active' when on posts#index" do
+      params[:controller] = "posts"
+      params[:action]     = "index"
+      render
+      rendered.should have_css "li.active a[href='#{posts_path}']"
     end
   end
 
@@ -40,6 +50,11 @@ describe "shared/_navbar" do
     it "should have a link to 'Blog'" do
       rendered.should have_css "a[href='#{posts_path}']"
       rendered.should have_content "Blog"
+    end
+
+    it "should have a link to 'About'" do
+      rendered.should have_css "a[href='#{about_path}']"
+      rendered.should have_content "About"
     end
 
     it "should have a link to create a 'Contact'" do
