@@ -2,9 +2,9 @@ $coffee_brown : #331400;
 $toffee_brown : #B0946C;
 
 .navbar {
-  background    : $coffee_brown;
-  border-radius : 0;
-  box-shadow    : 0px 1px 6px #888888;
+  background-color : $coffee_brown;
+  border-radius    : 0;
+  box-shadow       : 0px 1px 6px #888888;
 
   li.active a { background-color : #6E3E01 !important; }
 

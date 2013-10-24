@@ -26,13 +26,13 @@ feature "post workflow", type: :feature do
     fill_in "admin_password", with: admin.password
     click_button "Sign in"
 
-    # "expect to be on the home page (about page)"
-    expect(page).to have_content "Welcome to Grndz!"
-
     # "head to blog page"
     within(".navbar") do
       click_link "Blog"
     end
+
+    # "expect to be on the home page (about page)"
+    expect(page).to have_content "Grndz Blog"
 
     # "should NOT have the user's post on the home page"
     expect(page).to have_no_content first_title
@@ -69,7 +69,7 @@ feature "post workflow", type: :feature do
     expect(page).to have_content first_body
 
     # "should let the user go to the home page"
-    click_link "The Grndz Blog"
+    click_link "Grndz Blog"
 
     # "head back to the blog page"
     within(".navbar") do
