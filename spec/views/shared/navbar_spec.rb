@@ -71,18 +71,18 @@ describe "shared/_navbar" do
 
     it "should have a link to create a create a 'New Post'" do
       rendered.should have_css "a[href='#{new_post_path}']"
-      rendered.should have_content "New Post"
+      rendered.should have_css "span.glyphicon.glyphicon-plus"
     end
 
     it "should have a link to the admin's settings page" do
       rendered.should have_css "a[href='/admins/edit']"
-      rendered.should have_content "Account"
+      rendered.should have_css "span.glyphicon.glyphicon-cog"
     end
 
     it "should have a link to sign the user out" do
       rendered.should have_css "a[data-method='delete']"
       rendered.should have_css "a[href='/admins/sign_out']"
-      rendered.should have_content "Sign Out"
+      rendered.should have_css "span.glyphicon.glyphicon-log-out"
     end
   end
 end

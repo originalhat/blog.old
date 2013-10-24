@@ -41,7 +41,8 @@ feature "post workflow", type: :feature do
 
     # "should let the user go to the 'New Post' page"
     within(".navbar") do
-      click_link "New Post"
+      # clicking on '.glyphicon-plus' wasn't working
+      find("a[href='/posts/new']").click
     end
 
     # "should be on the 'New Post' page"

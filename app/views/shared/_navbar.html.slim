@@ -22,8 +22,11 @@ nav.navbar.navbar-inverse.navbar-fixed-top role="navigation"
       - if admin_signed_in?
         ul.nav.navbar-nav.pull-right
           li
-            = link_to 'New Post', new_post_path
+            = link_to new_post_path
+              span.glyphicon.glyphicon-plus
           li
-            = link_to 'Account', "/admins/edit"
+            = link_to "/admins/edit"
+              span.glyphicon.glyphicon-cog
           li
-            = link_to 'Sign Out', destroy_admin_session_path, :method => :delete
+            = link_to destroy_admin_session_path, :method => :delete
+              span.glyphicon.glyphicon-log-out
