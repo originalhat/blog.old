@@ -25,6 +25,12 @@
         font-size  : 50px;
     }
 
+    @media (max-width: 520px) {
+      h1 {
+        font-size : 40px;
+      }
+    }
+
     h3 {
       font-weight: 200;
       line-height: 1.4;
