@@ -8,21 +8,12 @@ describe 'layouts/index' do
 
   it "should render some titles (e.g. it exists)" do
     expect(rendered).to include("We Build Coffee.")
-    expect(rendered).to include("What's on the Menu?")
-    expect(rendered).to include("Meet the Builders")
-    expect(rendered).to include("Let the Information Flow!")
-    expect(rendered).to include("Some Coffee Porn")
+    expect(rendered).to include("Coffee that ACTUALLY Tastes Good.")
+    expect(rendered).to include("Plus, it's Painlessly Simple to Get.")
+    expect(rendered).to include("Coffee Break for Coffee Porn")
   end
 
-  it "should have a link to the about page" do
-    rendered.should have_css("a[href='#{about_path}']")
-  end
-
-  it "should have a link to the posts page" do
-    rendered.should have_css("a[href='#{posts_path}']")
-  end
-
-  it "should have a link to the contact page" do
-    rendered.should have_css("a[href='#{contact_path}']")
+  it "should include an iframe (with a YouTube video)" do
+    rendered.should have_css "iframe[src='//www.youtube.com/embed/aidvznATOnk']"
   end
 end

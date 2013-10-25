@@ -32,7 +32,7 @@ feature "post workflow", type: :feature do
     end
 
     # "expect to be on the home page (about page)"
-    expect(page).to have_content "Grndz Blog"
+    expect(page).to have_content "Existing Post"
 
     # "should NOT have the user's post on the home page"
     expect(page).to have_no_content first_title
@@ -70,7 +70,7 @@ feature "post workflow", type: :feature do
     expect(page).to have_content first_body
 
     # "should let the user go to the home page"
-    click_link "Grndz Blog"
+    click_link "Home"
 
     # "head back to the blog page"
     within(".navbar") do

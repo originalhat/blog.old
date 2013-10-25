@@ -7,6 +7,6 @@ describe 'about/show' do
   end
 
   it "should render some titles" do
-    expect(rendered).to include("About Page")
+    expect(rendered).to include("About")
   end
 end
