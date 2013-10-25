@@ -9,7 +9,7 @@ describe 'layouts/index' do
   it "should render some titles (e.g. it exists)" do
     expect(rendered).to include("We Build Coffee.")
     expect(rendered).to include("What's on the Menu?")
-    expect(rendered).to include("Meet the Builders.")
+    expect(rendered).to include("Meet the Builders")
     expect(rendered).to include("Let the Information Flow!")
     expect(rendered).to include("Some Coffee Porn")
   end
