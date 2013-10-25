@@ -15,6 +15,7 @@ Grndz::Application.routes.draw do
   resources :posts
 
   get '/'       => 'application#index',        as: 'index'
+  get 'blog'    => 'posts#index',              as: 'blog'
   get 'about'   => 'application#about_page',   as: 'about'
   get 'contact' => 'application#contact_page', as: 'contact'
 

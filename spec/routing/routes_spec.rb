@@ -16,6 +16,11 @@ describe "routing" do
   end
 
   describe "PostsController" do
+
+    it "routes GET /blog to posts#index" do
+      expect(get: "/blog").to route_to(controller: "posts", action: "index")
+    end
+
     it "routes GET /posts to hit posts#index" do
       expect(get: "/posts").to route_to(controller: "posts", action: "index")
     end
