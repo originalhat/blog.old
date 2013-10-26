@@ -19,12 +19,12 @@ feature "post workflow", type: :feature do
   scenario "signin, creating, viewing, editing and deleting a post" do
 
     # "expect to be on the sign in page"
-    expect(page).to have_content "Sign in"
+    expect(page).to have_content "Login"
 
     # "should let the admin sign in"
     fill_in "admin_email",    with: admin.email
     fill_in "admin_password", with: admin.password
-    click_button "Sign in"
+    click_button "Login"
 
     # "head to blog page"
     within(".navbar") do
@@ -111,13 +111,13 @@ feature "post workflow", type: :feature do
   end
 
   scenario "NOT signed in as an admin" do
-    expect(page).to have_content "Sign in"
+    expect(page).to have_content "Login"
 
     # "should NOT let the visitor sign in"
     fill_in "admin_email",    with: "the@dude.com"
     fill_in "admin_password", with: "bowling"
-    click_button "Sign in"
+    click_button "Login"
 
-    expect(page).to have_content "Sign in"
+    expect(page).to have_content "Login"
   end
 end

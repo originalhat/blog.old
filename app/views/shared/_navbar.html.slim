@@ -30,3 +30,8 @@ nav.navbar.navbar-inverse.navbar-fixed-top role="navigation"
           li
             = link_to destroy_admin_session_path, :method => :delete
               span.glyphicon.glyphicon-log-out
+      - else
+        ul.nav.navbar-nav.pull-right
+          li
+            = link_to "/admins/sign_in"
+              span.glyphicon.glyphicon-log-in

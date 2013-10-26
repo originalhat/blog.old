@@ -40,6 +40,11 @@ describe "shared/_navbar" do
       rendered.should have_css "a[href='http://www.grndz.com/contact']"
       rendered.should have_content "Contact"
     end
+
+    it "should have a link to sign the user in" do
+      rendered.should have_css "a[href='/admins/sign_in']"
+      rendered.should have_css "span.glyphicon.glyphicon-log-in"
+    end
   end
 
   describe "signed in as an admin" do
