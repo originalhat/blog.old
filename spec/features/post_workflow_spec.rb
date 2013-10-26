@@ -69,9 +69,6 @@ feature "post workflow", type: :feature do
     expect(page).to have_content "Arnold Brown"
     expect(page).to have_content first_body
 
-    # "should let the user go to the home page"
-    click_link "Home"
-
     # "head back to the blog page"
     within(".navbar") do
       click_link "Blog"

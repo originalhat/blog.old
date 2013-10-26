@@ -1,6 +1,6 @@
 Grndz::Application.routes.draw do
 
-  root to: 'application#index'
+  root to: 'posts#index'
 
   devise_for :admins, skip: 'registrations'
 
@@ -14,10 +14,7 @@ Grndz::Application.routes.draw do
 
   resources :posts
 
-  get '/'       => 'application#index',        as: 'index'
   get 'blog'    => 'posts#index',              as: 'blog'
-  get 'about'   => 'application#about_page',   as: 'about'
-  get 'contact' => 'application#contact_page', as: 'contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
