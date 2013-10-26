@@ -3,10 +3,8 @@
 
   = form_for(resource, as: resource_name, url: session_path(resource_name), role: "form") do |f|
     .form-group
-      = f.label :email
       = f.email_field :email, class: "form-control", autofocus: true, placeholder: "Email"
     .form-group
-      = f.label :password
       = f.password_field :password, class: "form-control", placeholder: "Password"
 
     - if devise_mapping.rememberable?

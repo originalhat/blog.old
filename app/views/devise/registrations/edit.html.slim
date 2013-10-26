@@ -1,0 +1,22 @@
+#sign-in-container
+  h2 Update Account
+
+  = form_for(resource, as: resource_name, url: "/admins", html: { method: :put }, role: "form") do |f|
+    = devise_error_messages!
+
+    .form-group
+      = f.email_field :email, :autofocus => true, class: "form-control", placeholder: "Update Email"
+
+    - if devise_mapping.confirmable? && resource.pending_reconfirmation?
+      | Currently waiting confirmation for: #{resource.unconfirmed_email}
+
+    .form-group
+      = f.password_field :current_password, class: "form-control", placeholder: "Current Password"
+
+    .form-group
+      = f.password_field :password, :autocomplete => "off", class: "form-control", placeholder: "Password"
+
+    .form-group
+      = f.password_field :password_confirmation, class: "form-control", placeholder: "Password Confirmation"
+
+    = f.submit "Update", class: "btn btn-warning"

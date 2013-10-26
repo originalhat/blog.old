@@ -10,7 +10,6 @@ describe "devise/sessions/new" do
   end
 
   it "should have an email field" do
-    rendered.should have_content "Email"
     rendered.should have_css "input#admin_email"
   end
 
@@ -19,7 +18,6 @@ describe "devise/sessions/new" do
   end
 
   it "should have a password field" do
-    rendered.should have_content "Password"
     rendered.should have_css "input#admin_password"
   end
 
