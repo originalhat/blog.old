@@ -1,11 +1,11 @@
 development:
   adapter:  postgresql
   encoding: unicode
-  database: grounds_development
+  database: grndz_blog_development
   pool: 5
 
 test:
   adapter:  postgresql
   encoding: unicode
-  database: grounds_test
+  database: grdnz_blog_test
   pool: 5
