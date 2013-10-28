@@ -30,5 +30,13 @@ $toffee_brown : #B0946C;
     font-size : 20px;
     top       : -1px;
   }
+
+  .glyphicon.glyphicon-log-in,
+  .glyphicon.glyphicon-plus,
+  .glyphicon.glyphicon-cog,
+  .glyphicon.glyphicon-log-out
+   {
+    line-height: 12px;
+  }
 }
 
