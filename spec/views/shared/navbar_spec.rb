@@ -26,19 +26,14 @@ describe "shared/_navbar" do
       rendered.should have_content "Home"
     end
 
-    it "should have a link to 'Blog'" do
-      rendered.should have_css "a[href='#{posts_path}']"
-      rendered.should have_content "Blog"
-    end
-
     it "should have a link to 'About'" do
       rendered.should have_css "a[href='http://www.grndz.com/about']"
       rendered.should have_content "About"
     end
 
-    it "should have a link to create a 'Contact'" do
-      rendered.should have_css "a[href='http://www.grndz.com/contact']"
-      rendered.should have_content "Contact"
+    it "should have a link to 'Coffee Blog'" do
+      rendered.should have_css "a[href='#{posts_path}']"
+      rendered.should have_content "Coffee Blog"
     end
 
     it "should have a link to sign the user in" do
