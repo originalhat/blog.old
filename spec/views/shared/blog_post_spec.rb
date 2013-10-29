@@ -3,7 +3,7 @@ include PostsHelper
 
 describe "shared/_blog_post" do
   let(:post) do
-    stub_model(Post, author: "Tom", title: "coffee", posted: DateTime.now, body: "<p>stuff</p>")
+    stub_model(Post, author: "Tom", title: "coffee", created_at: DateTime.now, body: "<p>stuff</p>")
   end
 
   let(:admin) do
@@ -23,7 +23,7 @@ describe "shared/_blog_post" do
   end
 
   it "should have the post's date" do
-    response.should have_content clean_date post.posted
+    response.should have_content clean_date post.created_at
   end
 
   it "should have the post's author (current user)" do
