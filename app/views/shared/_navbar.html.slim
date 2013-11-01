@@ -12,9 +12,9 @@ nav.navbar.navbar-inverse.navbar-fixed-top role="navigation"
       ul.nav.navbar-nav
         li
           = link_to 'Home', "http://www.grndz.com"
-        li
+        li class=(params[:action] == 'about_page' ? 'active' : 'inactive')
           = link_to 'About', about_path
-        li.active
+        li class=(params[:controller] == 'posts' ? 'active' : 'inactive')
           = link_to 'Coffee Blog', posts_path
 
       - if admin_signed_in?
