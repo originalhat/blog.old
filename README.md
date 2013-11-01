@@ -1,3 +1,3 @@
-# Grndz-Blog
+# Grndz Support
 
-Woo! Blogging.
+This includes: the **blogging framework** and **about page** for <http://grndz.com>.
