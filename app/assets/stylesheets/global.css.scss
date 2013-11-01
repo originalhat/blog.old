@@ -1,8 +1,22 @@
 $link_color   : #781900;
 $toffee_brown : #B0946C;
 
-.container {
-    max-width: 750px;
+@import url(http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911);
+
+.container.small-menu {
+  max-width: 600px;
+}
+
+.container.medium-menu {
+  max-width: 800px;
+}
+
+.container.large-menu {
+  max-width: 1000px;
+}
+
+.font-bookletter {
+  font-family: 'Goudy Bookletter 1911', serif;
 }
 
 body {
@@ -27,20 +41,37 @@ h1, h2 {
   }
 }
 
-p { font-size : 20px; }
+.thin-font {
+  font-weight : 200;
+}
 
 #textured-container {
   background     : url(/assets/sos.png);
   border-radius  : 2px;
   box-shadow     : 0px 1px 8px #888888;
-  margin-bottom  : 60px;
+  margin-bottom  : 25px;
   margin-left    : auto;
   margin-right   : auto;
-  margin-top     : 80px;
-  min-height     : 700px;
+  margin-top     : 60px;
   padding        : 40px;
-  padding-bottom : 10px;
-  padding-top    : 10px;
+  padding-bottom : 30px;
+  padding-top    : 2px;
 }
 
 a { color: #781900; }
+
+@media (max-width: 520px) {
+  #textured-container {
+    padding-left  : 30px;
+    padding-right : 30px;
+
+  }
+}
+
+@media (max-width: 330px) {
+  #textured-container {
+    padding-left  : 15px;
+    padding-right : 15px;
+
+  }
+}

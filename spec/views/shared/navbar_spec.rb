@@ -27,7 +27,7 @@ describe "shared/_navbar" do
     end
 
     it "should have a link to 'About'" do
-      rendered.should have_css "a[href='http://www.grndz.com/about']"
+      rendered.should have_css "a[href='#{about_path}']"
       rendered.should have_content "About"
     end
 

@@ -1,0 +1,32 @@
+.bio-container {
+
+  padding-bottom : 10px;
+
+  li.bio-info {
+    position : absolute;
+
+    h4, h5 {
+      margin-bottom : 5px;
+      margin-top    : 5px;
+    }
+
+    h5.bio-contact {
+      width : 175px;
+      border-top  : 1px solid;
+      margin-top  : 8px;
+      padding-top : 5px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    li.bio-info {
+      h4, h5 {
+        font-size : 80%
+      }
+
+      h5.bio-contact {
+        width: 126px;
+      }
+    }
+  }
+}

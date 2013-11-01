@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'browser'
+
 gem 'devise'
 
 gem 'will_paginate'

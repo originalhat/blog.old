@@ -4,9 +4,9 @@ describe 'posts/index' do
   before(:each) do
     view.stub(:will_paginate)
 
-    Post.create(title: "a", posted: DateTime.now, author: "db", body: "stuff")
-    Post.create(title: "b", posted: DateTime.now, author: "db", body: "stuff")
-    Post.create(title: "b", posted: DateTime.now, author: "eg", body: "stuff")
+    Post.create(title: "a", author: "db", body: "stuff")
+    Post.create(title: "b", author: "db", body: "stuff")
+    Post.create(title: "b", author: "eg", body: "stuff")
     assign(:posts, Post.order('created_at DESC'))
 
     render
