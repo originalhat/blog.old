@@ -17,8 +17,12 @@ group :development, :test do
   gem 'guard-rspec', require: false
 end
 
+group :development do
+  gem 'letter_opener'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.3'
 
 # Use pg as the database for Active Record
 gem 'pg'
